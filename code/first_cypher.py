@@ -38,9 +38,19 @@ s1 = "HAAPRFYLNZPRFCGCVDGCPHGCPSFHGNCKPUYRFPADBCPHGCPSFHGNCKPUYRFPNDKPHLKPYVPUCP
 s2 = "DYJUJLCZLQALCAWFZDL JADJULCALIZLQRRLSYJUJLDUIDYLQVCEJZLCALOIRRAJZZLQAELDFLMAFSLUQDYJUL FAZCZDZLCALFKJACATLFIDLQLSQBLSYJUJLDYJLCWKUCZFAJELZKRJAEFULWQBLJZ QKJLDYJALCALJOOJ DCATLJADUBLOFULQLRCTYDLZIKKFZJELDFLVJLSCDYFID"
 s3 = "JYAKGDAMWLAYJVVAIOCADLYGSTJZJLTAQJLDICAUJIOANJPIKANCMGLHNAUGSIOAGYAHJNIWLMCASDLAKGDSNAJNAIOCACWSIOAWLHACZCSKIOJLTAIOWINAJLAJIAWLHAUOJMOAJNAQGSCAKGDVVARCAWAQWLAQKANGL"
 
-for s in [s1, s2, s3]:
-    for i in range(27):
-        for j in range(27):
-            string = shiftEncode(s,i,j)
-            if " AND " in string:
-                print(string)
+def stats(word):
+    adict = {}
+    alphabet = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ ")
+    for l in alphabet:
+        adict[l] = 0
+    for c in word:
+        adict[c] += 1
+    for k in sorted(adict.keys()):
+        print(k+": "+str(adict[k]))
+
+# for s in [s1, s2, s3]:
+#     for i in range(27):
+#         for j in range(27):
+#             string = shiftEncode(s,i,j)
+#             if " AND " in string:
+#                 print(string)

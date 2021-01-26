@@ -1,0 +1,18 @@
+Affine Cipher
+Encryption = (a, b)
+
+Don't us a if a is not relatively prime.
+* there's no one-to-one correlation.
+
+Composition of 2 Aphine Cyphers is also an Aphine Cypher
+
+If you use pairs, it's 2 digits of a base-27 system
+
+RSA Cryptosystem:
+A message is a number M in the range ... for some large n. n=p*q, where 
+p, q are prime.
+Encryption key
+
+Equivelance classes
+
+congruince operations

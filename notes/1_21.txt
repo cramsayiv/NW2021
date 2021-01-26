@@ -1,0 +1,8 @@
+First Class notes
+Topic 1: Cryptography
+2 Parts: Data securing & Data hiding
+All messages are electromagnetic radiation
+Polynomial rings over finite fields
+DOS attack
+
+Caesar cypher -> shift every letter in the alphabet
