@@ -1,0 +1,2 @@
+gcd(a, b) is the greatest number such that a|b and b|a
+if d|a and d|b: d|(a-k*b)
