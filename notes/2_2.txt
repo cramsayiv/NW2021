@@ -1,0 +1,18 @@
+Theorem: If p is a prime and p|ab,
+
+Theorem: If GCD(a, b) = 1, there exists s, t such that as+bt = 1
+
+Theorem: If GCD(a, n) = 1, there exists a b such that ab %n = 1 (i.e. b is a^-1)
+
+Theorem: If GCD(a, b) = 1 and a|bc, a|c
+
+Consider a multiplication table %n such that the numbers are relatively prime to
+  n, up to n. Each row will be some permutation of the top row.
+Proof: can't be the same, must be also relatively prime to n. ab must be
+  relatively prime
+
+Euler:
+a^phi(n) * p is congruent to 1
+
+RSA key is 391, 3
+to decrypt, find d such that 3d is congruent to 1 (mod 352)
