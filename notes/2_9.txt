@@ -1,0 +1,13 @@
+Pollard Rho if for factoring when one is small
+Fairmont is for factoring if both big/ close together
+Affine Ciphers secure if a and b are secret and M is very large
+Diffie Hellman key exchange
+* purpose: two parties can agree on a number that is secret to them via
+  communication over an insecure channel
+Group theory: A group is a set X with an operation that is associative, has
+  identity, has inverses
+Cool number: G's powers generate all elements of the group is called a
+  "Generator" of the group
+Mod n prime p, the group has a phi of p, that group always has at least one
+  Generator. Always one with primes
+find generators for 31
